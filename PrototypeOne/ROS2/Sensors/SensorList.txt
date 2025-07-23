@@ -1,0 +1,39 @@
+Ciśnieniomierz - 
+Bar 30 High-Resolution Depth Pressure Sensor https://bluerobotics.com/store/sensors-cameras/sensors/bar30-sensor-r1/
+G1/4 0-80PSI 5V
+https://allegro.pl/oferta/czujnik-cisnienia-przetwornik-cisnienia-g1-4-0-80psi-5v-17352964973?reco_id=9c64fc3a-211c-11f0-a43c-62ac2fd111a7&sid=1147bbb04b955b96a226cab2e664258d9124ef0862320b2d7366fdd6604cf017
+MS5837
+https://rovmaker.org/product/high-resolution-300m-depth-pressure-sensor/
+-----------------------------------------------------------------------
+Czujnik dymu -  potrzebny przetwornik
+Grove MQ2   https://botland.com.pl/grove-czujniki-gazow-i-pylow/15175-grove-czujnik-dymu-i-latwopalnych-gazow-mq2-analogowy-polprzewodnikowy-5904422323431.html?cd=20567593583&ad=&kd=&gad_source=1&gclid=Cj0KCQjwnui_BhDlARIsAEo9Gusq0v1O1DQi9pwOMppNPq5v2u_gcrF9FLwTn4yqLZgX6vHra4a2ppsaAh5rEALw_wcB
+MQ-2
+https://botland.com.pl/czujniki-gazow/1911-czujnik-dymu-i-latwopalnych-gazow-mq-2-polprzewodnikowy-modul-czarny-5904422359089.html?cd=19576772303&ad=&kd=&gad_source=1&gclid=EAIaIQobChMIqfuusvrwjAMVI1ORBR1B2BarEAQYASABEgKcNvD_BwE
+-----------------------------------------------------------------------
+Tensometr (potrzebny wzmacniacz) - MMF403817 I DigiKey Electronics
+https://www.digikey.pl/pl/products/detail/micro-measurements-division-of-vishay-precision-group-/MMF403817/9857825?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS&utm_term=&productid=9857825&utm_content=&utm_id=go_cmp-20219749344_adg-_ad-__dev-c_ext-_prd-9857825_sig-Cj0KCQjwnui_BhDlARIsAEo9GusH0tw1J1mHF8Z5hzFGapUg_pY5jQM55d8kcnZqkOAlOriNwE7yeuEaAsvUEALw_wcB&gad_source=1&gclid=Cj0KCQjwnui_BhDlARIsAEo9GusH0tw1J1mHF8Z5hzFGapUg_pY5jQM55d8kcnZqkOAlOriNwE7yeuEaAsvUEALw_wcB
+-----------------------------------------------------------------------
+Akcelerometr, żyroskop, magnetometr - MiniMu-9 v5 9DOF
+https://botland.com.pl/czujniki-9dof-imu/5528-minimu-9-v5-9dof-akcelerometr-zyroskop-i-magnetometr-i2c-pololu-2738-5904422300180.htm
+-----------------------------------------------------------------------Czujnik temperatury - DS18B20
+https://botland.com.pl/cyfrowe-czujniki-temperatury/165-czujnik-temperatury-ds18b20-cyfrowy-1-wire-tht-5904422366513.html
+-----------------------------------------------------------------------Czujnik wody - Water sensor
+https://www.gotronik.pl/czujnik-poziomu-wody-water-sensor-p-7855.html
+-----------------------------------------------------------------------
+
+Power manager
+https://rovmaker.org/product/openrov-power-management-board/
+
+
+Czujnik temperatura/wilgotność - DHT22 (AM2302)
+https://botland.com.pl/czujniki-multifunkcyjne/2637-czujnik-temperatury-i-wilgotnosci-dht22-am2302-modul-przewody-5904422372712.html?cd=20567593583&ad=&kd=&gad_source=1&gclid=Cj0KCQjwoNzABhDbARIsALfY8VOAuGkYjBVIxMhwJ5RPF3GTWfqT3mHk3HCZGM3Mx9DGBUiCudOkwZMaAogWEALw_wcB
+-----------------------------------------------------------------------
+Przetwornik -  MCP3008
+https://botland.com.pl/przetworniki/2358-przetwornik-a-c-mcp3008-10-bitowy-8-kanalowy-spi-dip-5904422362089.html
+-----------------------------------------------------------------------
+Wzmacniacz - INA125PA
+https://botland.com.pl/przetworniki/2358-przetwornik-a-c-mcp3008-10-bitowy-8-kanalowy-spi-dip-5904422362089.html
+-----------------------------------------------------------------------
+Enkoder - AS5600 
+https://sklep.msalamon.pl/produkt/as5600-enkoder-magnetyczny-12-bit/?srsltid=AfmBOoqlmou0M_WIQ_RiLMrC0ZhUxNBIQ-3iJgmlOaxoz9fHuuL_op-k
+
