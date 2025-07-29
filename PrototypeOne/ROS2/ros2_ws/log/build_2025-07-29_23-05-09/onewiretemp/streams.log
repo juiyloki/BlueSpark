@@ -1,0 +1,40 @@
+[0.487s] Invoking command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp -- -j12 -l12
+[0.649s] Built target ament_cmake_python_copy_nodes
+[1.119s] running egg_info
+[1.157s] writing nodes.egg-info/PKG-INFO
+[1.157s] writing dependency_links to nodes.egg-info/dependency_links.txt
+[1.158s] writing top-level names to nodes.egg-info/top_level.txt
+[1.268s] reading manifest file 'nodes.egg-info/SOURCES.txt'
+[1.269s] writing manifest file 'nodes.egg-info/SOURCES.txt'
+[1.327s] Built target ament_cmake_python_build_nodes_egg
+[1.357s] Invoked command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp -- -j12 -l12
+[1.382s] Invoking command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp
+[1.404s] -- Install configuration: ""
+[1.404s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/environment/pythonpath.sh
+[1.404s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/environment/pythonpath.dsv
+[1.404s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes-0.0.1-py3.12.egg-info
+[1.405s] -- Installing: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes-0.0.1-py3.12.egg-info/PKG-INFO
+[1.405s] -- Installing: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.405s] -- Installing: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes-0.0.1-py3.12.egg-info/top_level.txt
+[1.405s] -- Installing: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.405s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes
+[1.406s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes/__init__.py
+[1.406s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes/temperature.py
+[1.477s] Listing '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/lib/python3.12/site-packages/nodes'...
+[1.489s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/temperature.py
+[1.489s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/ament_index/resource_index/package_run_dependencies/onewiretemp
+[1.490s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/ament_index/resource_index/parent_prefix_path/onewiretemp
+[1.490s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/environment/ament_prefix_path.sh
+[1.490s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/environment/ament_prefix_path.dsv
+[1.490s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/environment/path.sh
+[1.491s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/environment/path.dsv
+[1.491s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/local_setup.bash
+[1.491s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/local_setup.sh
+[1.491s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/local_setup.zsh
+[1.491s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/local_setup.dsv
+[1.492s] -- Installing: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/package.dsv
+[1.492s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/ament_index/resource_index/packages/onewiretemp
+[1.492s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/cmake/onewiretempConfig.cmake
+[1.492s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/cmake/onewiretempConfig-version.cmake
+[1.492s] -- Up-to-date: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/onewiretemp/share/onewiretemp/package.xml
+[1.496s] Invoked command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp

@@ -1,0 +1,11 @@
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/uninstall.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/onewiretemp_uninstall.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/ament_cmake_python_copy_nodes.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/ament_cmake_python_build_nodes_egg.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/test.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/edit_cache.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/rebuild_cache.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/list_install_components.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/install.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/install/local.dir
+/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/onewiretemp/CMakeFiles/install/strip.dir

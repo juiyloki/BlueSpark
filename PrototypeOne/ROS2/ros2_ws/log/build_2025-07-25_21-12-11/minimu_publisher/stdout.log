@@ -1,8 +1,0 @@
-running develop
-Removing /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/minimu_publisher/lib/python3.12/site-packages/minimu-publisher.egg-link (link to .)
-running egg_info
-writing ../../build/minimu_publisher/minimu_publisher.egg-info/PKG-INFO
-writing dependency_links to ../../build/minimu_publisher/minimu_publisher.egg-info/dependency_links.txt
-writing entry points to ../../build/minimu_publisher/minimu_publisher.egg-info/entry_points.txt
-writing requirements to ../../build/minimu_publisher/minimu_publisher.egg-info/requires.txt
-writing top-level names to ../../build/minimu_publisher/minimu_publisher.egg-info/top_level.txt

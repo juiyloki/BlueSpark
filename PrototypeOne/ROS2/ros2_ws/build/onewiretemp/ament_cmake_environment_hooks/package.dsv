@@ -1,0 +1,4 @@
+source;share/onewiretemp/local_setup.bash
+source;share/onewiretemp/local_setup.dsv
+source;share/onewiretemp/local_setup.sh
+source;share/onewiretemp/local_setup.zsh
