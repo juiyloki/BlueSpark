@@ -1,33 +1,42 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import FluidPressure, Temperature, Imu
+
+from std_msgs.msg import Float32
+from nav_msgs.msg import Odometry
+
+
 
 class SensorHub(Node):
+
     def __init__(self):
         super().__init__('sensor_hub')
-        self.subscribers = {
-            '/bar30/pressure': (FluidPressure, self.pressure_callback),
-            '/bar30/temperature': (Temperature, self.temp_callback),
-            '/imu/data': (Imu, self.imu_callback)
-        }
-        for topic, (msg_type, callback) in self.subscribers.items():
-            self.create_subscription(msg_type, topic, callback, 10)
+        
+        self.bar30_pressure = self.create_subscription(Float32, 'bar30/pressure', self.pressure_callback, 10)
+        self.bar30_temperature = self.create_subscription(Float32, 'bar30/temperature', self.temperature_callback, 10)
+        self.bar30_depth = self.create_subscription(Float32, 'bar30/depth', self.depth_callback, 10)
+        self.bar30_odometry = self.create_subscription(Odometry, 'bar30/odom', self.odometry_callback, 10)
 
-    def pressure_callback(self, msg):
-        self.get_logger().info(f'Pressure: {msg.fluid_pressure} mbar')
 
-    def temp_callback(self, msg):
-        self.get_logger().info(f'Temperature: {msg.temperature} C')
+    def pressure_callback(self, msg: Float32):
+        self.get_logger().info(f'Pressure: {msg.data}')
+    def temperature_callback(self, msg: Float32):
+        self.get_logger().info(f'Temperature: {msg.data}') 
+    def depth_callback(self, msg: Float32):
+        self.get_logger().info(f'Depth: {msg.data}')
+    def odometry_callback(self, msg: Odometry):
+        self.get_logger().info(f'Odometry Position: x={msg.pose.pose.position.x}, y={msg.pose.pose.position.y}, z={msg.pose.pose.position.z}')
 
-    def imu_callback(self, msg):
-        self.get_logger().info(f'IMU: Accel=({msg.linear_acceleration.x}, {msg.linear_acceleration.y}, {msg.linear_acceleration.z})')
 
-def main():
-    rclpy.init()
-    node = SensorHub()
-    rclpy.spin(node)
-    node.destroy_node()
+def main(args=None):
+    rclpy.init(args=args)
+
+    sensor_hub = SensorHub()
+
+    rclpy.spin(sensor_hub)
+
+    sensor_hub.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
