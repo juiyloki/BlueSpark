@@ -8,7 +8,10 @@ class SensorHub(Node):
 
     def __init__(self):
         super().__init__('sensor_hub')
-        self.subscription = self.create_subscription(String, 'topic', self.listener_callback, 10)
+        self.bar30_pressure = self.create_subscription(Float32, 'bar30/pressure', self.listener_callback, 10)
+        self.bar30_temperature = self.create_subscription(Float32, 'bar30/temperature', self.listener_callback, 10)
+        self.bar30_pressure = self.create_subscription(Float32, 'bar30/pressure', self.listener_callback, 10)
+        self.bar30_pressure = self.create_subscription(Float32, 'bar30/pressure', self.listener_callback, 10)
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
@@ -18,7 +21,7 @@ class SensorHub(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_subscriber = SensorHub()
+    'sensor_hub' = SensorHub()
 
     rclpy.spin(minimal_subscriber)
 
