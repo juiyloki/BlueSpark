@@ -1,0 +1,6 @@
+[submodule "PrototypeOne/ROS2/ros2_ws/bar30_ms5837_publlisher"]
+	path = PrototypeOne/ROS2/ros2_ws/bar30_ms5837_publlisher
+	url = https://github.com/tasada038/ms5837_bar_ros
+[submodule "PrototypeOne/ROS2/ros2_ws/src/bar30_ms5837_publlisher"]
+	path = PrototypeOne/ROS2/ros2_ws/src/bar30_ms5837_publlisher
+	url = https://github.com/tasada038/ms5837_bar_ros
