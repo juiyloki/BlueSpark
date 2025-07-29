@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pressure_publisher = py_pubsub.publisher_member_function:main',
-            'pressure_subscriber = py_pubsub.subscriber_member_function:main',
+            'pressure_publisher = sensor_hub.publisher_member_function:main',
+            'pressure_subscriber = sensor_hub.subscriber_member_function:main',
         ],
     },
 )
