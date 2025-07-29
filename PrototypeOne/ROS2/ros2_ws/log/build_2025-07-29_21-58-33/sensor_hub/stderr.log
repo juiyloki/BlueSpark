@@ -1,0 +1,5 @@
+  File "/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages/sensor_hub/sensor_hub.py", line 31
+    self.get_logger().info(f'Odometry Position:
+                           ^
+SyntaxError: unterminated f-string literal (detected at line 31)
+

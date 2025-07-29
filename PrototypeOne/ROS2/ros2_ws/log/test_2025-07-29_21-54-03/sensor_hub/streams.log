@@ -1,0 +1,113 @@
+[0.300s] Invoking command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/src/sensor_hub_subscriber': AMENT_PREFIX_PATH=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/pytest.xml --junit-prefix=sensor_hub -o cache_dir=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.850s] [1m============================= test session starts ==============================[0m
+[0.850s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.858s] cachedir: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/.pytest_cache
+[0.859s] rootdir: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/src/sensor_hub_subscriber
+[0.859s] plugins: ament-pep257-0.17.2, launch-testing-ros-0.26.7, launch-testing-3.4.4, ament-xmllint-0.17.2, ament-lint-0.17.2, ament-copyright-0.17.2, ament-flake8-0.17.2, cov-4.1.0, colcon-core-0.19.0, mock-3.12.0, repeat-0.9.3, rerunfailures-12.0, timeout-2.2.0, typeguard-4.1.5
+[0.972s] [1mcollecting ... [0m[1m
+[0.972s] collected 3 items                                                              [0m
+[0.973s] 
+[0.982s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[1.185s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.209s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.210s] 
+[1.210s] =================================== FAILURES ===================================
+[1.210s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.210s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.258s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.258s] [1m[31mE   AssertionError: Found 13 code style errors / warnings:[0m
+[1.258s] [1m[31mE     ./sensor_hub/sensor_hub.py:5:1: I100 Import statements are in the wrong order. 'from nav_msgs.msg import Odometry' should be before 'from std_msgs.msg import Float32'[0m
+[1.258s] [1m[31mE     ./sensor_hub/sensor_hub.py:9:1: E303 too many blank lines (3)[0m
+[1.258s] [1m[31mE     ./sensor_hub/sensor_hub.py:13:1: W293 blank line contains whitespace[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:14:100: E501 line too long (109 > 99 characters)[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:15:100: E501 line too long (118 > 99 characters)[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:16:100: E501 line too long (100 > 99 characters)[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:17:100: E501 line too long (106 > 99 characters)[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:20:5: E303 too many blank lines (2)[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:22:5: E301 expected 1 blank line, found 0[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:23:59: W291 trailing whitespace[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:24:5: E301 expected 1 blank line, found 0[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:26:5: E301 expected 1 blank line, found 0[0m
+[1.259s] [1m[31mE     ./sensor_hub/sensor_hub.py:27:100: E501 line too long (142 > 99 characters)[0m
+[1.259s] [1m[31mE   assert 1 == 0[0m
+[1.260s] ----------------------------- Captured stdout call -----------------------------
+[1.260s] 
+[1.260s] ./sensor_hub/sensor_hub.py:5:1: I100 Import statements are in the wrong order. 'from nav_msgs.msg import Odometry' should be before 'from std_msgs.msg import Float32'
+[1.260s] from nav_msgs.msg import Odometry
+[1.260s] ^
+[1.260s] 
+[1.260s] ./sensor_hub/sensor_hub.py:9:1: E303 too many blank lines (3)
+[1.260s] class SensorHub(Node):
+[1.260s] ^
+[1.260s] 
+[1.261s] ./sensor_hub/sensor_hub.py:13:1: W293 blank line contains whitespace
+[1.261s]         
+[1.261s] ^
+[1.261s] 
+[1.261s] ./sensor_hub/sensor_hub.py:14:100: E501 line too long (109 > 99 characters)
+[1.261s]         self.bar30_pressure = self.create_subscription(Float32, 'bar30/pressure', self.pressure_callback, 10)
+[1.261s]                                                                                                    ^
+[1.261s] 
+[1.261s] ./sensor_hub/sensor_hub.py:15:100: E501 line too long (118 > 99 characters)
+[1.261s]         self.bar30_temperature = self.create_subscription(Float32, 'bar30/temperature', self.temperature_callback, 10)
+[1.261s]                                                                                                    ^
+[1.262s] 
+[1.262s] ./sensor_hub/sensor_hub.py:16:100: E501 line too long (100 > 99 characters)
+[1.262s]         self.bar30_depth = self.create_subscription(Float32, 'bar30/depth', self.depth_callback, 10)
+[1.262s]                                                                                                    ^
+[1.262s] 
+[1.262s] ./sensor_hub/sensor_hub.py:17:100: E501 line too long (106 > 99 characters)
+[1.262s]         self.bar30_odometry = self.create_subscription(Odometry, 'bar30/odom', self.odometry_callback, 10)
+[1.262s]                                                                                                    ^
+[1.262s] 
+[1.262s] ./sensor_hub/sensor_hub.py:20:5: E303 too many blank lines (2)
+[1.262s]     def pressure_callback(self, msg: Float32):
+[1.263s]     ^
+[1.263s] 
+[1.263s] ./sensor_hub/sensor_hub.py:22:5: E301 expected 1 blank line, found 0
+[1.263s]     def temperature_callback(self, msg: Float32):
+[1.263s]     ^
+[1.263s] 
+[1.263s] ./sensor_hub/sensor_hub.py:23:59: W291 trailing whitespace
+[1.263s]         self.get_logger().info(f'Temperature: {msg.data}') 
+[1.263s]                                                           ^
+[1.263s] 
+[1.263s] ./sensor_hub/sensor_hub.py:24:5: E301 expected 1 blank line, found 0
+[1.264s]     def depth_callback(self, msg: Float32):
+[1.264s]     ^
+[1.264s] 
+[1.264s] ./sensor_hub/sensor_hub.py:26:5: E301 expected 1 blank line, found 0
+[1.264s]     def odometry_callback(self, msg: Odometry):
+[1.264s]     ^
+[1.264s] 
+[1.264s] ./sensor_hub/sensor_hub.py:27:100: E501 line too long (142 > 99 characters)
+[1.264s]         self.get_logger().info(f'Odometry Position: x={msg.pose.pose.position.x}, y={msg.pose.pose.position.y}, z={msg.pose.pose.position.z}')
+[1.264s]                                                                                                    ^
+[1.264s] 
+[1.265s] 3     E301 expected 1 blank line, found 0
+[1.265s] 2     E303 too many blank lines (3)
+[1.265s] 5     E501 line too long (109 > 99 characters)
+[1.265s] 1     I100 Import statements are in the wrong order. 'from nav_msgs.msg import Odometry' should be before 'from std_msgs.msg import Float32'
+[1.265s] 1     W291 trailing whitespace
+[1.265s] 1     W293 blank line contains whitespace
+[1.265s] 
+[1.265s] 6 files checked
+[1.266s] 13 errors
+[1.266s] 
+[1.266s] 'E'-type errors: 10
+[1.266s] 'I'-type errors: 1
+[1.266s] 'W'-type errors: 2
+[1.266s] 
+[1.267s] Checked files:
+[1.267s] 
+[1.267s] * ./setup.py
+[1.267s] * ./test/test_flake8.py
+[1.267s] * ./test/test_copyright.py
+[1.267s] * ./test/test_pep257.py
+[1.267s] * ./sensor_hub/__init__.py
+[1.267s] * ./sensor_hub/sensor_hub.py
+[1.267s] - generated xml file: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/pytest.xml -
+[1.267s] [36m[1m=========================== short test summary info ============================[0m
+[1.268s] [31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 13 code style errors / warnings:
+[1.268s] [31m==================== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m[31m in 0.41s[0m[31m ====================[0m
+[1.368s] Invoked command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/src/sensor_hub_subscriber' returned '1': AMENT_PREFIX_PATH=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/pytest.xml --junit-prefix=sensor_hub -o cache_dir=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

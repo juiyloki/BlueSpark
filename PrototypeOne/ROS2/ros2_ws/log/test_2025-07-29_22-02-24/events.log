@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (sensor_hub) JobQueued: {'identifier': 'sensor_hub', 'dependencies': OrderedDict({'sensor_hub': '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub'})}
+[0.000271] (sensor_hub) JobStarted: {'identifier': 'sensor_hub'}
+[0.098858] (-) TimerEvent: {}
+[0.199366] (-) TimerEvent: {}
+[0.300603] (-) TimerEvent: {}
+[0.301490] (sensor_hub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/src/sensor_hub_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pl:en', 'USER': 'agata', 'LC_TIME': 'pl_PL.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agata', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3278', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee4a0a163a73b5c0919e14dc688917e2', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agata', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agata', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/agata/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/agata-Laptop-13-AMD-Ryzen-7040Series:@/tmp/.ICE-unix/3278,unix/agata-Laptop-13-AMD-Ryzen-7040Series:/tmp/.ICE-unix/3278', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d72985f8_3bfb_4d5f_bf3a_153a83670e58', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pl_PL.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BJX692', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.213', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee4a0a163a73b5c0919e14dc688917e2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/agata/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/pytest.xml --junit-prefix=sensor_hub -o cache_dir=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/.pytest_cache'}, 'shell': False}
+[0.400790] (-) TimerEvent: {}
+[0.501291] (-) TimerEvent: {}
+[0.601761] (-) TimerEvent: {}
+[0.698857] (sensor_hub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.699254] (sensor_hub) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[0.701899] (-) TimerEvent: {}
+[0.702464] (sensor_hub) StdoutLine: {'line': b'cachedir: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/.pytest_cache\n'}
+[0.702741] (sensor_hub) StdoutLine: {'line': b'rootdir: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/src/sensor_hub_subscriber\n'}
+[0.702953] (sensor_hub) StdoutLine: {'line': b'plugins: ament-pep257-0.17.2, launch-testing-ros-0.26.7, launch-testing-3.4.4, ament-xmllint-0.17.2, ament-lint-0.17.2, ament-copyright-0.17.2, ament-flake8-0.17.2, cov-4.1.0, colcon-core-0.19.0, mock-3.12.0, repeat-0.9.3, rerunfailures-12.0, timeout-2.2.0, typeguard-4.1.5\n'}
+[0.766924] (sensor_hub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.767331] (sensor_hub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.767496] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.771885] (sensor_hub) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.802063] (-) TimerEvent: {}
+[0.884347] (sensor_hub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.896528] (sensor_hub) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.896796] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.896954] (sensor_hub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.897097] (sensor_hub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.897233] (sensor_hub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.902192] (-) TimerEvent: {}
+[0.922332] (sensor_hub) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.922744] (sensor_hub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 4 code style errors / warnings:\x1b[0m\n'}
+[0.922910] (sensor_hub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./sensor_hub/sensor_hub.py:13:13: E128 continuation line under-indented for visual indent\x1b[0m\n'}
+[0.923046] (sensor_hub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./sensor_hub/sensor_hub.py:15:13: E128 continuation line under-indented for visual indent\x1b[0m\n'}
+[0.923184] (sensor_hub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./sensor_hub/sensor_hub.py:17:13: E128 continuation line under-indented for visual indent\x1b[0m\n'}
+[0.923322] (sensor_hub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./sensor_hub/sensor_hub.py:43:11: W292 no newline at end of file\x1b[0m\n'}
+[0.923457] (sensor_hub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.923588] (sensor_hub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.923746] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.923879] (sensor_hub) StdoutLine: {'line': b'./sensor_hub/sensor_hub.py:13:13: E128 continuation line under-indented for visual indent\n'}
+[0.923943] (sensor_hub) StdoutLine: {'line': b"            'bar30/pressure', self.pressure_callback, 10)\n"}
+[0.924003] (sensor_hub) StdoutLine: {'line': b'            ^\n'}
+[0.924064] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.924126] (sensor_hub) StdoutLine: {'line': b'./sensor_hub/sensor_hub.py:15:13: E128 continuation line under-indented for visual indent\n'}
+[0.924185] (sensor_hub) StdoutLine: {'line': b"            'bar30/temperature', self.temperature_callback, 10)\n"}
+[0.924243] (sensor_hub) StdoutLine: {'line': b'            ^\n'}
+[0.924303] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.924362] (sensor_hub) StdoutLine: {'line': b'./sensor_hub/sensor_hub.py:17:13: E128 continuation line under-indented for visual indent\n'}
+[0.924432] (sensor_hub) StdoutLine: {'line': b"            'bar30/depth', self.depth_callback, 10)\n"}
+[0.924490] (sensor_hub) StdoutLine: {'line': b'            ^\n'}
+[0.924548] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.924609] (sensor_hub) StdoutLine: {'line': b'./sensor_hub/sensor_hub.py:43:11: W292 no newline at end of file\n'}
+[0.924679] (sensor_hub) StdoutLine: {'line': b'    main()          ^\n'}
+[0.924741] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.924800] (sensor_hub) StdoutLine: {'line': b'3     E128 continuation line under-indented for visual indent\n'}
+[0.924858] (sensor_hub) StdoutLine: {'line': b'1     W292 no newline at end of file\n'}
+[0.924918] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.924977] (sensor_hub) StdoutLine: {'line': b'6 files checked\n'}
+[0.925034] (sensor_hub) StdoutLine: {'line': b'4 errors\n'}
+[0.925096] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.925159] (sensor_hub) StdoutLine: {'line': b"'E'-type errors: 3\n"}
+[0.925219] (sensor_hub) StdoutLine: {'line': b"'W'-type errors: 1\n"}
+[0.925279] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.925337] (sensor_hub) StdoutLine: {'line': b'Checked files:\n'}
+[0.925395] (sensor_hub) StdoutLine: {'line': b'\n'}
+[0.925452] (sensor_hub) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.925510] (sensor_hub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.925570] (sensor_hub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.925628] (sensor_hub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.925698] (sensor_hub) StdoutLine: {'line': b'* ./sensor_hub/__init__.py\n'}
+[0.925764] (sensor_hub) StdoutLine: {'line': b'* ./sensor_hub/sensor_hub.py\n'}
+[0.925825] (sensor_hub) StdoutLine: {'line': b'- generated xml file: /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/pytest.xml -\n'}
+[0.925885] (sensor_hub) StdoutLine: {'line': b'\x1b[36m\x1b[1m=========================== short test summary info ============================\x1b[0m\n'}
+[0.925944] (sensor_hub) StdoutLine: {'line': b'\x1b[31mFAILED\x1b[0m test/test_flake8.py::\x1b[1mtest_flake8\x1b[0m - AssertionError: Found 4 code style errors / warnings:\n'}
+[0.926003] (sensor_hub) StdoutLine: {'line': b'\x1b[31m==================== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m\x1b[31m in 0.22s\x1b[0m\x1b[31m ====================\x1b[0m\n'}
+[1.002553] (-) TimerEvent: {}
+[1.003476] (sensor_hub) CommandEnded: {'returncode': 1}
+[1.004376] (sensor_hub) TestFailure: {'identifier': 'sensor_hub'}
+[1.004453] (sensor_hub) JobEnded: {'identifier': 'sensor_hub', 'rc': 0}
+[1.005187] (-) EventReactorShutdown: {}

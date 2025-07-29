@@ -1,0 +1,30 @@
+[1.096s] Invoking command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/src/sensor_hub_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_hub build --build-base /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/build install --record /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/install.log --single-version-externally-managed install_data
+[1.343s] running egg_info
+[1.355s] writing ../../build/sensor_hub/sensor_hub.egg-info/PKG-INFO
+[1.355s] writing dependency_links to ../../build/sensor_hub/sensor_hub.egg-info/dependency_links.txt
+[1.355s] writing entry points to ../../build/sensor_hub/sensor_hub.egg-info/entry_points.txt
+[1.356s] writing requirements to ../../build/sensor_hub/sensor_hub.egg-info/requires.txt
+[1.357s] writing top-level names to ../../build/sensor_hub/sensor_hub.egg-info/top_level.txt
+[1.381s] reading manifest file '../../build/sensor_hub/sensor_hub.egg-info/SOURCES.txt'
+[1.381s] adding license file 'LICENSE'
+[1.382s] writing manifest file '../../build/sensor_hub/sensor_hub.egg-info/SOURCES.txt'
+[1.382s] running build
+[1.382s] running build_py
+[1.382s] copying sensor_hub/sensor_hub.py -> /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/build/lib/sensor_hub
+[1.382s] running install
+[1.386s] running install_lib
+[1.398s] copying /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/build/lib/sensor_hub/sensor_hub.py -> /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages/sensor_hub
+[1.398s] byte-compiling /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages/sensor_hub/sensor_hub.py to sensor_hub.cpython-312.pyc
+[1.399s] running install_data
+[1.399s]   File "/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages/sensor_hub/sensor_hub.py", line 31
+[1.399s]     self.get_logger().info(f'Odometry Position:
+[1.399s]                            ^
+[1.399s] SyntaxError: unterminated f-string literal (detected at line 31)
+[1.399s] 
+[1.399s] running install_egg_info
+[1.413s] removing '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages/sensor_hub-0.0.0-py3.12.egg-info' (and everything under it)
+[1.413s] Copying ../../build/sensor_hub/sensor_hub.egg-info to /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages/sensor_hub-0.0.0-py3.12.egg-info
+[1.414s] running install_scripts
+[1.501s] Installing sensor_hub script to /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/sensor_hub
+[1.501s] writing list of installed files to '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/install.log'
+[1.523s] Invoked command in '/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/src/sensor_hub_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/sensor_hub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_hub build --build-base /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/build install --record /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/sensor_hub/install.log --single-version-externally-managed install_data

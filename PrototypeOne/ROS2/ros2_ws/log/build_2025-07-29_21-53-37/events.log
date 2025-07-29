@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (-) JobUnselected: {'identifier': 'ms5837_bar_ros'}
+[0.000756] (-) JobUnselected: {'identifier': 'sensor_hub'}
+[0.000814] (-) EventReactorShutdown: {}
