@@ -1,24 +1,30 @@
 import rclpy
 from rclpy.node import Node
 
-from std_msgs.msg import String
+from std_msgs.msg import Float32
+from nav_msgs.msg import Odometry
+
 
 
 class SensorHub(Node):
 
     def __init__(self):
         super().__init__('sensor_hub')
+        
         self.bar30_pressure = self.create_subscription(Float32, 'bar30/pressure', self.pressure_callback, 10)
         self.bar30_temperature = self.create_subscription(Float32, 'bar30/temperature', self.temperature_callback, 10)
-        self.bar30_pressure = self.create_subscription(Float32, 'bar30/pressure', self.pressure_callback, 10)
-        self.bar30_temperature = self.create_subscription(Float32, 'bar30/temperature', self.temperature_callback, 10)
-        self.subscription
+        self.bar30_depth = self.create_subscription(Float32, 'bar30/depth', self.depth_callback, 10)
+        self.bar30_odometry = self.create_subscription(Odometry, 'bar30/odom', self.odometry_callback, 10)
+
 
     def pressure_callback(self, msg: Float32):
-        self.get_logger().info(f'Pressure: {msg.data:.2f}')
-
+        self.get_logger().info(f'Pressure: {msg.data}')
     def temperature_callback(self, msg: Float32):
-        self.get_logger().info(f'Temperature: {msg.data:.2f}')
+        self.get_logger().info(f'Temperature: {msg.data}') 
+    def depth_callback(self, msg: Float32):
+        self.get_logger().info(f'Depth: {msg.data}')
+    def odometry_callback(self, msg: Odometry):
+        self.get_logger().info(f'Odometry Position: x={msg.pose.pose.position.x}, y={msg.pose.pose.position.y}, z={msg.pose.pose.position.z}')
 
 
 def main(args=None):
@@ -26,7 +32,7 @@ def main(args=None):
 
     sensor_hub = SensorHub()
 
-    rclpy.spin(minimal_subscriber)
+    rclpy.spin(sensor_hub)
 
     sensor_hub.destroy_node()
     rclpy.shutdown()
