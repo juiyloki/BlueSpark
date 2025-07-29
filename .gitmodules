@@ -1,6 +1,6 @@
 [submodule "PrototypeOne/ROS2/ros2_ws/src/ms5837_bar30"]
 	path = PrototypeOne/ROS2/ros2_ws/src/ms5837_bar30
-	url = https://github.com/tasada038/ms5837_bar_ros
+	url = https://github.com/juiyloki/ms5837_bar30
 [submodule "PrototypeOne/ROS2/ros2_ws/src/onewiretemp"]
 	path = PrototypeOne/ROS2/ros2_ws/src/onewiretemp
-	url = https://github.com/MoffKalast/onewiretemp
+	url = https://github.com/juiyloki/onewiretemp
