@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hub_listener = sensor_hub.sensor_hub:main'
+            'sensor_hub = sensor_hub.sensor_hub:main'
         ],
     },
 )
