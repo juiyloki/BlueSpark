@@ -1,0 +1,2 @@
+[console_scripts]
+minimu_publisher = minimu_node:main

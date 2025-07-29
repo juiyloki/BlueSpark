@@ -1,0 +1,16 @@
+running develop
+running egg_info
+creating minimu_publisher.egg-info
+writing minimu_publisher.egg-info/PKG-INFO
+writing dependency_links to minimu_publisher.egg-info/dependency_links.txt
+writing entry points to minimu_publisher.egg-info/entry_points.txt
+writing requirements to minimu_publisher.egg-info/requires.txt
+writing top-level names to minimu_publisher.egg-info/top_level.txt
+writing manifest file 'minimu_publisher.egg-info/SOURCES.txt'
+reading manifest file 'minimu_publisher.egg-info/SOURCES.txt'
+writing manifest file 'minimu_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/minimu_publisher/lib/python3.12/site-packages/minimu-publisher.egg-link (link to .)
+Installing minimu_publisher_node script to /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/install/minimu_publisher/lib/minimu_publisher
+
+Installed /home/agata/Desktop/Things/GIT/BlueSpark/BlueSpark/PrototypeOne/ROS2/ros2_ws/build/minimu_publisher

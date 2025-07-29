@@ -1,8 +1,4 @@
 Ciśnieniomierz - 
-Bar 30 High-Resolution Depth Pressure Sensor https://bluerobotics.com/store/sensors-cameras/sensors/bar30-sensor-r1/
-G1/4 0-80PSI 5V
-https://allegro.pl/oferta/czujnik-cisnienia-przetwornik-cisnienia-g1-4-0-80psi-5v-17352964973?reco_id=9c64fc3a-211c-11f0-a43c-62ac2fd111a7&sid=1147bbb04b955b96a226cab2e664258d9124ef0862320b2d7366fdd6604cf017
-MS5837
 https://rovmaker.org/product/high-resolution-300m-depth-pressure-sensor/
 -----------------------------------------------------------------------
 Czujnik dymu -  potrzebny przetwornik

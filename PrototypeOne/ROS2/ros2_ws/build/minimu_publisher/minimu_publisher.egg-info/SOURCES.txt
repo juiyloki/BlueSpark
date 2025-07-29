@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+minimu_publisher.egg-info/PKG-INFO
+minimu_publisher.egg-info/SOURCES.txt
+minimu_publisher.egg-info/dependency_links.txt
+minimu_publisher.egg-info/entry_points.txt
+minimu_publisher.egg-info/requires.txt
+minimu_publisher.egg-info/top_level.txt
+minimu_publisher.egg-info/zip-safe
+src/minimu_publisher/__init__.py
+src/minimu_publisher/minimu_publisher_node.py
