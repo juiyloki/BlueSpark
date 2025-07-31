@@ -1,7 +1,0 @@
-setup.py
-nodes/__init__.py
-nodes/temperature.py
-nodes.egg-info/PKG-INFO
-nodes.egg-info/SOURCES.txt
-nodes.egg-info/dependency_links.txt
-nodes.egg-info/top_level.txt
